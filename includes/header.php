@@ -7,6 +7,13 @@
         $('body').delay(350).css({
             'overflow': 'visible'
         });
+
+        setTimeout(function(){
+          $('.cover_phone').css({
+            // 'display':'block',
+            'margin-top':'35%'
+          })
+        },500)
     })
      //]]>
 </script>

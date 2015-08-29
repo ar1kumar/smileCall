@@ -5,12 +5,12 @@ $(document).ready(function(){
   featuresHeight = $('.features').height();
   var phone_anim_scroll = parseInt(coverHeight)+ parseInt(featuresHeight)/100*40;
   //Animate the phone on page load
-  setTimeout(function(){
-    $('.cover_phone').css({
-      // 'display':'block',
-      'margin-top':'35%'
-    })
-  },500)
+  // setTimeout(function(){
+  //   $('.cover_phone').css({
+  //     // 'display':'block',
+  //     'margin-top':'35%'
+  //   })
+  // },500)
 
   //Animate the navigaion bar on scroll
   window.addEventListener("scroll", function(event) {
