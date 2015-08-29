@@ -24,12 +24,12 @@
 <div class="top_bar col-xs-12 no-pad z-top easing">
   <div class="container-fluid">
     <div class="top_icons col-md-4 col-xs-12 right-text white-text roboto-light">
-      <span class="col-md-6 col-xs-6 social">
+      <span class="col-md-6 col-xs-6 social mt-5">
         <a href="#"><span class="icon-facebook"></span></a>
         <a href="#"><span class="icon-twitter"></span></a>
         <a href="#"><span class="icon-google-plus"></span></a>
       </span>
-      <p class="col-md-6 col-xs-6 "><a href="#" class="no-dec white-text">SignUp</a> | <a href="#" class="no-dec white-text">Login</a></p>
+      <a href="#" class="no-dec white-text"><p class="mt-5 col-md-6 col-xs-6 ">SignUp | Login</p></a>
     </div>
   </div>
 </div>
