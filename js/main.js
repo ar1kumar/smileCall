@@ -22,7 +22,7 @@ $(document).ready(function(){
     $('.cover_copy').css({
       'margin-top':coverCopyTop+'px'
     })
-  },500)
+  },1000)
 
   var phone_anim_scroll = parseInt(coverHeight)+ parseInt(featuresHeight)/100*40;
 
