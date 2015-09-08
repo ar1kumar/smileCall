@@ -174,11 +174,17 @@ html,body,.wrapper{
 .blue-text{
   color: #0f6db0;
 }
+.red-text{
+  color: #e94f29;
+}
 .mt-5{
   margin-top: 5px;
 }
 .mt-25{
   margin-top: 25px;
+}
+.mt-50{
+  margin-top: 50px;
 }
 .mb-25{
   margin-bottom: 25px;
@@ -192,6 +198,12 @@ html,body,.wrapper{
   -o-transition: all .75s ease-in-out;
   transition: all .75s ease-in-out;
 }
+.easing_fast{
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
 /*Menu bar and head section starts here*/
 /*change header menu props*/
 
@@ -202,6 +214,11 @@ html,body,.wrapper{
   height: 35px;
   z-index: 10;
 }
+
+.signup:hover{
+  color: #fff;
+}
+
 .top_icons{
   float: right;
   margin-top: 5px;
@@ -213,6 +230,7 @@ html,body,.wrapper{
   padding: 0px 10px 0 0;
   margin: 2px 0 0 0;
 }
+
 .navbar{
   background-image: none !important;
   -webkit-box-shadow: none;
@@ -257,9 +275,11 @@ html,body,.wrapper{
 }
 
 .menu:hover, .menu a:hover{
-  background-color: #fff;
-  color: #000 !important;
-  border-radius: 10px;
+  /*background-color: #fff;*/
+  border-bottom: 1px solid #fff;
+  /*text-decoration: underline;*/
+  /*color: #000 !important;*/
+  /*border-radius: 10px;*/
   background-position: 0 0;
 }
 .top_logo{
@@ -287,6 +307,10 @@ html,body,.wrapper{
   outline: none;
   border: none;
   padding: 0 15px 0 15px;
+}
+
+.availble_text{
+  font-size: 1.5em;
 }
 
 .availble_text span{
@@ -334,7 +358,49 @@ html,body,.wrapper{
   background: #666667;
 }
 
+.footer_fixed{
+  position: fixed;
+  bottom: 0;
+}
+
 /*Menu bar and head section ends here*/
+
+/*Contact us page starts here*/
+.cover_short{
+  background: url('../img/cover_bg.jpg')center center fixed;
+  width: 100%;
+  height: 150px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+.form_input{
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #ededed;
+}
+
+.form_comment{
+  background: #ededed;
+  outline: none;
+}
+.submit_btn{
+  height: 40px;
+  background: #e94f29;
+  outline: none;
+  border: none;
+  padding: 0 15px 0 15px;
+  color: #fff;
+}
+/*Contact Us page ends here*/
+
+/*Pricing page starts here*/
+.price_list{
+  list-style-type: none;
+}
+/*Pricing page ends here*/
 
 /*Media queries starts here*/
 @media (max-width: 768px) {

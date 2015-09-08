@@ -7,13 +7,6 @@
         $('body').delay(350).css({
             'overflow': 'visible'
         });
-
-        setTimeout(function(){
-          $('.cover_phone').css({
-            // 'display':'block',
-            'margin-top':'35%'
-          })
-        },500)
     })
      //]]>
 </script>
@@ -21,19 +14,19 @@
     <div id="status">&nbsp;</div>
 </div>
 <!--preloader ends	-->
-<div class="top_bar col-xs-12 no-pad z-top easing">
-  <div class="container-fluid">
-    <div class="top_icons col-md-4 col-xs-12 right-text white-text roboto-light">
+<div class="top_bar col-xs-12 no-pad z-top easing no-pad">
+  <div class="container-fluid no-pad">
+    <div class="top_icons col-md-4 col-xs-12 right-text white-text roboto-light no-pad">
       <span class="col-md-6 col-xs-6 social mt-5">
         <a href="#"><span class="icon-facebook"></span></a>
         <a href="#"><span class="icon-twitter"></span></a>
         <a href="#"><span class="icon-google-plus"></span></a>
       </span>
-      <a href="#" class="no-dec white-text"><p class="mt-5 col-md-6 col-xs-6 ">SignUp | Login</p></a>
+      <a href="#" class="no-dec white-text signup"><p class="mt-5 col-md-6 col-xs-6 ">SignUp | Login</p></a>
     </div>
   </div>
 </div>
-<nav class="navbar navbar-default z-top easing">
+<nav class="navbar navbar-default z-top easing_fast">
   <div class="container-fluid">
     <!-- <div class="top_bar col-xs-12 no-pad">
       <div class="top_icons col-md-4 right-text white-text">
@@ -48,7 +41,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="#" class="navbar-brand">
+      <a href="index.php" class="navbar-brand">
         <img src="img/logo.png" alt="" class="top_logo">
       </a>
     </div>
@@ -57,9 +50,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right mt-15 center-text menu_items">
         <li class="menu"><a href="#">HOW TO USE</a></li>
-        <li class="menu"><a href="#">PRICING</a></li>
+        <li class="menu"><a href="pricing.php">PRICING</a></li>
         <li class="menu"><a href="#">RATES</a></li>
-        <li class="menu"><a href="#">RESELLER</a></li>
+        <li class="menu"><a href="reseller.php">RESELLER</a></li>
         <li class="btn_adj">
           <button class="btn nav_btn gotham-med">GET THE APP</button>
         </li>
