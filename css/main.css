@@ -183,12 +183,19 @@ html,body,.wrapper{
 .mt-25{
   margin-top: 25px;
 }
+.mt-40{
+  margin-top: 40px;
+}
 .mt-50{
   margin-top: 50px;
 }
 .mb-25{
   margin-bottom: 25px;
 }
+.mb-40{
+  margin-bottom: 40px;
+}
+
 .no-dec{
   text-decoration: none;
 }
@@ -332,6 +339,14 @@ html,body,.wrapper{
   overflow: hidden;
 }
 
+.features{
+  min-height: 650px;
+}
+
+.features_sec{
+  /*display: none;*/
+}
+
 .steps{
   font-size: 1.3em;
 }
@@ -381,6 +396,7 @@ html,body,.wrapper{
   border-left: none;
   border-right: none;
   border-bottom: 1px solid #ededed;
+  font-size: 1.2em;
 }
 
 .form_comment{
@@ -416,5 +432,11 @@ html,body,.wrapper{
   }
   .btn_adj{
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 835px) {
+  .nav>li>a{
+    padding: 10px 5px;
   }
 }

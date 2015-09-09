@@ -27,6 +27,6 @@
         <script src="assets/jquery.bxslider.js"></script>
         <!-- bxSlider CSS file -->
         <link href="assets/jquery.bxslider.css" rel="stylesheet" />
-
-
+        <!-- Animate css -->
+        <link rel="stylesheet" href="assets/animate.css">
     </head>

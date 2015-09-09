@@ -44,7 +44,7 @@ $(document).ready(function(){
         left =this.scrollX;
 
         //Change header style on scroll
-        console.log(top+"--"+phone_anim_scroll);
+        //console.log(top+"--"+phone_anim_scroll);
         if(top > 30){
            $('.top_bar').hide();
 
@@ -102,6 +102,27 @@ $(document).ready(function(){
             'display':'block',
             'background': 'rgba(0,0,0,0.5)'
           })
+        }
+
+        //Animate the features section
+        if(top > coverHeight - coverHeight-200){
+          fadeStuff(0);
+          function fadeStuff(i){
+            if(i<4){
+
+              // $($('.features_sec')[i]).fadeIn(function(){
+              //   $(this).addClass('animated fadeInUp');
+              // });
+              $($('.features_sec')[i]).addClass('animated fadeInUp');;
+                i++;
+                setTimeout(function(){
+                  fadeStuff(i);
+                },200)
+            }
+            else{
+              return true;
+            }
+          }
         }
 
         //Animate phone on how to use section

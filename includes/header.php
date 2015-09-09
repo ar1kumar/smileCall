@@ -4,20 +4,20 @@
 <!--preloader ends	-->
 <div class="top_bar col-xs-12 no-pad z-top easing no-pad">
   <div class="container-fluid no-pad">
-    <div class="top_icons col-md-4 col-xs-12 right-text white-text roboto-light no-pad">
-      <span class="col-md-6 col-xs-6 social mt-5">
+    <div class="top_icons col-sm-4 col-xs-12 right-text white-text roboto-light no-pad">
+      <span class="col-sm-6 col-xs-6 social mt-5">
         <a href="#"><span class="icon-facebook"></span></a>
         <a href="#"><span class="icon-twitter"></span></a>
         <a href="#"><span class="icon-google-plus"></span></a>
       </span>
-      <a href="#" class="no-dec white-text signup"><p class="mt-5 col-md-6 col-xs-6 ">SignUp | Login</p></a>
+      <a href="#" class="no-dec white-text signup"><p class="mt-5 col-sm-6 col-xs-6 ">Sign Up | Login</p></a>
     </div>
   </div>
 </div>
 <nav class="navbar navbar-default z-top easing_fast">
   <div class="container-fluid">
     <!-- <div class="top_bar col-xs-12 no-pad">
-      <div class="top_icons col-md-4 right-text white-text">
+      <div class="top_icons col-sm-4 right-text white-text">
         SignUp | Login
       </div>
     </div> -->
