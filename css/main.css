@@ -211,6 +211,10 @@ html,body,.wrapper{
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
+
+.icon-twitter{
+  font-size: 1.1em;
+}
 /*Menu bar and head section starts here*/
 /*change header menu props*/
 

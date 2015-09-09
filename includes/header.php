@@ -6,9 +6,9 @@
   <div class="container-fluid no-pad">
     <div class="top_icons col-sm-4 col-xs-12 right-text white-text roboto-light no-pad">
       <span class="col-sm-6 col-xs-6 social mt-5">
-        <a href="#"><span class="icon-facebook"></span></a>
+        <a href="#"><span class="icon-facebook2"></span></a>
         <a href="#"><span class="icon-twitter"></span></a>
-        <a href="#"><span class="icon-google-plus"></span></a>
+        <!-- <a href="#"><span class="icon-google-plus"></span></a> -->
       </span>
       <a href="#" class="no-dec white-text signup"><p class="mt-5 col-sm-6 col-xs-6 ">Sign Up | Login</p></a>
     </div>
