@@ -276,11 +276,12 @@ html,body,.wrapper{
 
 .menu:hover, .menu a:hover{
   /*background-color: #fff;*/
-  border-bottom: 1px solid #fff;
-  /*text-decoration: underline;*/
+  /*border-bottom: 1px solid #fff;*/
+  text-decoration: underline;
   /*color: #000 !important;*/
   /*border-radius: 10px;*/
   background-position: 0 0;
+  font-weight: bold;
 }
 .top_logo{
   width: 80%;

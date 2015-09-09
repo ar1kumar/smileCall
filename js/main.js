@@ -25,6 +25,17 @@ $(document).ready(function(){
       },500)
     }
 
+    //Preloader on window load
+    $(window).load(function () { // makes sure the whole site is loaded
+        $('#status').fadeOut(); // will first fade out the loading animation
+        $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+        $('body').delay(350).css({
+            'overflow': 'visible'
+        });
+        landing_page_anim();
+    })
+    //Preloader ends
+
   var phone_anim_scroll = parseInt(coverHeight)+ parseInt(featuresHeight)/100*40;
 
   //Animate the navigaion bar on scroll
