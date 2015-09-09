@@ -98,20 +98,32 @@
 
 .bx-wrapper .bx-prev {
 	left: 10px;
-	background: url(images/controls.png) no-repeat 0 -32px;
+	/*background: url(images/controls.png) no-repeat 0 -32px;*/
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+	background: url(../img/arrow.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url(images/controls.png) no-repeat -43px -32px;
+	/*background: url(images/controls.png) no-repeat -43px -32px;*/
+	background: url(../img/arrow.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 
 .bx-wrapper .bx-prev:hover {
-	background-position: 0 0;
+	/*background-position: 0 0;*/
 }
 
 .bx-wrapper .bx-next:hover {
-	background-position: -43px 0;
+	/*background-position: -43px 0;*/
 }
 
 .bx-wrapper .bx-controls-direction a {
