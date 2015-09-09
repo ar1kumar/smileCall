@@ -7,6 +7,7 @@
         $('body').delay(350).css({
             'overflow': 'visible'
         });
+        landing_page_anim();
     })
      //]]>
 </script>

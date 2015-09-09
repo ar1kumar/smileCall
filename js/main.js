@@ -10,19 +10,20 @@ $(document).ready(function(){
   // })
 
   coverHeight = $('.cover').height();
+    function landing_page_anim(){
+      setTimeout(function(){
+        //Animate the phone on page load
+        coverPhoneTop = coverHeight - $('.cover_phone').height();
+        $('.cover_phone').css({
+          'margin-top':coverPhoneTop+'px'
+        })
 
-  setTimeout(function(){
-    //Animate the phone on page load
-    coverPhoneTop = coverHeight - $('.cover_phone').height();
-    $('.cover_phone').css({
-      'margin-top':coverPhoneTop+'px'
-    })
-
-    coverCopyTop = ( (coverHeight - $('.top_bar').height() - $('navbar').height()) - $('.cover_text').height() )/2;
-    $('.cover_copy').css({
-      'margin-top':coverCopyTop+'px'
-    })
-  },1000)
+        coverCopyTop = ( (coverHeight - $('.top_bar').height() - $('navbar').height()) - $('.cover_text').height() )/2;
+        $('.cover_copy').css({
+          'margin-top':coverCopyTop+'px'
+        })
+      },500)
+    }
 
   var phone_anim_scroll = parseInt(coverHeight)+ parseInt(featuresHeight)/100*40;
 
