@@ -62,22 +62,47 @@
           <div class="container-fluid no-pad">
             <h2 class="white-text roboto-medium center-text mt-40">HOW TO USE</h2>
             <div class="col-sm-7 instructions no-pad mt-50">
-              <h3 class="roboto-regular white-text col-sm-offset-2">VIA MOBILE APPLICATIONS</h3>
-              <ol class="roboto-light white-text steps">
-                <li>Enter the Brand Pin/Operator code of respective dialer downloaded.</li>
-                <li>Enter the User ID and Password you received in your email against your plan purchase.</li>
-                <li>Save the credentials and its ready to use.</li>
-                <li>From the Dial screen, one can dial any country with country code following Number with Local/National area code with out any Zero prefix.</li>
-              </ol>
-              <div class="app_codes white-text col-sm-12">
-                <span class="icon-android"></span>
-                <span class="icon-apple"></span>
-                <span class="icon-windows8"></span>
-              </div>
+              <div class="ins1 easing">
+                <h3 class="roboto-regular white-text col-sm-offset-2">VIA MOBILE APPLICATIONS</h3>
+                <ol class="roboto-light white-text steps">
+                  <li>Enter the Brand Pin/Operator code of respective dialer downloaded.</li>
+                  <li>Enter the User ID and Password you received in your email against your plan purchase.</li>
+                  <li>Save the credentials and its ready to use.</li>
+                  <li>From the Dial screen, one can dial any country with country code following Number with Local/National area code with out any Zero prefix.</li>
+                </ol>
+                <div class="app_codes white-text col-sm-12">
+                  <span class="icon-android"></span>
+                  <span class="icon-apple"></span>
+                  <span class="icon-windows8"></span>
+                </div>
+                <span class="white-text roboto-thin right-text col-md-10 mt-15 access_text ins_next">
+                  Via Access Code
+                </span>
+                <img src="img/next.png" alt="" class="col-md-1 ins_next no-pad">
             </div>
+            <div class="ins2 easing">
+              <h3 class="roboto-regular white-text col-sm-offset-2">VIA ACCESS CODE</h3>
+              <ol class="roboto-light white-text steps">
+                <li>For USA nad Canada users, dial access numbers from your mobile or Land Phone and follow the IVR.</li>
+                <li>First you have to enter PIN and password to register your Mobile number. Once done, this will become a Pinless dialing afterwards.</li>
+                <li>Save the credentials and its ready to use.</li>
+                <li>Access Numbers: <br>
+                    13156048873 <br>
+                    16475594451
+                </li>
+              </ol>
+              <img src="img/prev.png" alt="" class="col-md-1 ins_prev no-pad">
+              <span class="white-text roboto-thin left-text col-md-10 mt-15 access_text ins_prev">
+                Via Mobile APP
+              </span>
+
+            </div>
+            </div>
+
             <div class="col-sm-5 no-pad phone_demo mb-40">
               <img src="img/phone.png" alt="" class="col-sm-8 phone_right">
             </div>
+
           </div>
         </div>
         <div class="testimonials col-xs-12">

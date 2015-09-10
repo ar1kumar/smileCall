@@ -141,6 +141,32 @@ $(document).ready(function(){
         }
   }, false);
 
+        insWidth = $('.instructions').width();
+        $('.ins2').css({
+          'left' : '-'+insWidth+2+'px'
+        })
+        //Slider for instructions page
+        $('.ins_next').click(function(){
+          $('.how_to').css({
+            'min-height' : $('.how_to').height()+'px'
+          })
+          $('.ins1').css({
+            'left' : insWidth+'px'
+          })
+          $('.ins2').css({
+            'left' : '0px'
+          })
+        })
+
+        $('.ins_prev').click(function(){
+          $('.ins2').css({
+            'left' : '-'+insWidth+100+'px'
+          })
+          $('.ins1').css({
+            'left' : '0px'
+          })
+        })
+
         //ContactUs page set dynamic height for form container
         getURL = window.location.href;
         baseURL = "/smile_call/";
@@ -149,7 +175,13 @@ $(document).ready(function(){
 
         formCoverHeight = $(window).height() - $('.cover_short').height() - $('.footer').height();
         $('.contact_form_cont').css({
-          'height' : formCoverHeight+'px'
+          'min-height' : formCoverHeight+'px'
+        })
+
+        cont_form = ($('.contact_form_cont').height() - $('.form_cont').height())/2
+
+        $('.contact_form_cont').css({
+          'padding-top' : cont_form+'px'
         })
 
 

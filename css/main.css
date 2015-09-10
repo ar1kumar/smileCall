@@ -159,6 +159,11 @@ html,body,.wrapper{
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
+.no-mar{
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .center-text{
   text-align: center;
 }
@@ -399,6 +404,25 @@ html,body,.wrapper{
   font-size: 0.2em;
 }
 
+.access_text{
+  font-size: 1.3em;
+  margin-top: 11px;
+  cursor: pointer;
+}
+
+.instructions{
+  overflow: hidden;
+
+}
+
+.ins1{
+  position: relative;
+}
+.ins2{
+  position: absolute;
+  top: 0;
+}
+
 .phone_right{
   margin-left: 100%;
   -webkit-transition: all .6s ease-in-out;
@@ -453,6 +477,30 @@ html,body,.wrapper{
 /*Pricing page starts here*/
 .price_list{
   list-style-type: none;
+}
+.price-tab{
+  border: 1px solid #0f6db0;
+  color: #0f6db0;
+  margin-top: 15px;
+}
+.price-tab:hover{
+  background-color: #0f6db0;
+  color: #fff;
+}
+.sub_btn_price{
+  background: #fff;
+  color: #0f6db0;
+  outline: none;
+  border: 1px solid #0f6db0;
+  position: relative;
+  left: 0;
+  bottom: -15px;
+  height: 30px;
+}
+.sub_btn_price:hover{
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #0f6db0;
 }
 /*Pricing page ends here*/
 
