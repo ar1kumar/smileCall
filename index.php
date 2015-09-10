@@ -71,14 +71,19 @@
                   <li>From the Dial screen, one can dial any country with country code following Number with Local/National area code with out any Zero prefix.</li>
                 </ol>
                 <div class="app_codes white-text col-sm-12">
-                  <span class="icon-android"></span>
+                  <!-- <span class="icon-android"></span>
                   <span class="icon-apple"></span>
                   <span class="icon-windows8"></span>
-                </div>
-                <span class="white-text roboto-thin right-text col-md-10 mt-15 access_text ins_next">
+                  <span class="icon-mobile"></span> -->
+                  <img src="img/codes/android.png" alt="" class="col-md-offset-1">
+                  <img src="img/codes/ios.png" alt="">
+                  <img src="img/codes/nokia.png" alt="">
+                  <img src="img/codes/pc.png" alt="">
+                </div> <br>
+                <span class="white-text roboto-thin right-text col-md-10 mt-25 access_text ins_next">
                   Via Access Code
                 </span>
-                <img src="img/next.png" alt="" class="col-md-1 ins_next no-pad">
+                <img src="img/next.png" alt="" class="col-md-1 ins_next no-pad mt-25">
             </div>
             <div class="ins2 easing">
               <h3 class="roboto-regular white-text col-sm-offset-2">VIA ACCESS CODE</h3>
@@ -91,7 +96,7 @@
                     16475594451
                 </li>
               </ol>
-              <img src="img/prev.png" alt="" class="col-md-1 ins_prev no-pad">
+              <img src="img/prev.png" alt="" class="col-md-1 ins_prev no-pad mt-25">
               <span class="white-text roboto-thin left-text col-md-10 mt-15 access_text ins_prev">
                 Via Mobile APP
               </span>
