@@ -10,8 +10,8 @@
           <div class="container-fluid">
             <div class="col-sm-7 no-pad">
               <div class="cover_text">
-                <p class="roboto-thin white-text cover_copy">Save when you call <br> global with Smile Dialer</p>
-                <button class="dwld_btn white-text roboto-regular">DOWNLOAD THE APP</button>
+                <p class="roboto-thin white-text cover_copy easing">Save when you call <br> global with Smile Dialer</p>
+                <button class="dwld_btn_land white-text mt-5 roboto-regular">DOWNLOAD THE APP</button>
                 <p class="white-text roboto-light mt-5 availble_text">
                   Available on
                   <span class="icon-apple"></span>
@@ -62,7 +62,7 @@
           <div class="container-fluid no-pad">
             <h2 class="white-text roboto-medium center-text mt-40">HOW TO USE</h2>
             <div class="col-sm-7 instructions no-pad mt-50">
-              <h2 class="dincond-bold white-text col-sm-offset-2">VIA MOBILE APPLICATIONS</h2>
+              <h3 class="roboto-regular white-text col-sm-offset-2">VIA MOBILE APPLICATIONS</h3>
               <ol class="roboto-light white-text steps">
                 <li>Enter the Brand Pin/Operator code of respective dialer downloaded.</li>
                 <li>Enter the User ID and Password you received in your email against your plan purchase.</li>

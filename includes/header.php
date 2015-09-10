@@ -10,7 +10,7 @@
         <a href="#"><span class="icon-twitter"></span></a>
         <!-- <a href="#"><span class="icon-google-plus"></span></a> -->
       </span>
-      <a href="#" class="no-dec white-text signup"><p class="mt-5 col-sm-6 col-xs-6 ">Sign Up | Login</p></a>
+      <a href="#" class="no-dec white-text signup"><p class="mt-2 col-sm-6 col-xs-6 ">Sign Up &nbsp;|&nbsp; Login</p></a>
     </div>
   </div>
 </div>

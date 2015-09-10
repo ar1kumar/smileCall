@@ -177,6 +177,10 @@ html,body,.wrapper{
 .red-text{
   color: #e94f29;
 }
+
+.mt-2{
+  margin-top: 2px;
+}
 .mt-5{
   margin-top: 5px;
 }
@@ -226,6 +230,10 @@ html,body,.wrapper{
   z-index: 10;
 }
 
+
+.signup p{
+  margin-left: -18px;
+}
 .signup:hover{
   color: #fff;
 }
@@ -277,6 +285,7 @@ html,body,.wrapper{
   -moz-transition: all .25s ease-in-out;
   -o-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
+  margin-top: 10px;
 }
 
 .menu a{
@@ -285,14 +294,24 @@ html,body,.wrapper{
   background-position: -100% 0;
 }
 
-.menu:hover, .menu a:hover{
+.menu:hover{
   /*background-color: #fff;*/
-  /*border-bottom: 1px solid #fff;*/
-  text-decoration: underline;
+  /*border-top: 2px solid #fff;*/
+  border-bottom: 2px solid #fff;
+
+  font-size: 1.05em;
+  padding: 0 0 0 0;
+  /*text-decoration: underline;*/
   /*color: #000 !important;*/
   /*border-radius: 10px;*/
   background-position: 0 0;
   font-weight: bold;
+  border-width: medium;
+}
+
+.navbar-nav>li>a{
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .top_logo{
   width: 80%;
@@ -309,8 +328,17 @@ html,body,.wrapper{
 }
 
 .cover_copy{
-  font-size: 3em;
-  margin-top: 35%;
+  font-size: 3.2em;
+  /*margin-top: 35%;*/
+}
+
+.dwld_btn_land{
+  height: 40px;
+  background: #e94f29;
+  outline: none;
+  border: none;
+  padding: 0 36px 0 36px;
+  font-size: 1.2em;
 }
 
 .dwld_btn{
@@ -322,7 +350,8 @@ html,body,.wrapper{
 }
 
 .availble_text{
-  font-size: 1.5em;
+  font-size: 1.3em;
+  padding-left: 20px;
 }
 
 .availble_text span{
@@ -348,7 +377,11 @@ html,body,.wrapper{
 }
 
 .features_sec{
-  /*display: none;*/
+  display: none;
+  -webkit-transition: all 3s ease-in-out;
+  -moz-transition: all 3s ease-in-out;
+  -o-transition: all 3s ease-in-out;
+  transition: all 3s ease-in-out;
 }
 
 .steps{
@@ -375,7 +408,7 @@ html,body,.wrapper{
 }
 
 .footer{
-  background: #666667;
+  background: #33333A;
 }
 
 .footer_fixed{

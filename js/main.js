@@ -15,7 +15,7 @@ $(document).ready(function(){
         //Animate the phone on page load
         coverPhoneTop = coverHeight - $('.cover_phone').height();
         $('.cover_phone').css({
-          'margin-top':coverPhoneTop+'px'
+          'margin-top':(coverPhoneTop-20)+'px'
         })
 
         coverCopyTop = ( (coverHeight - $('.top_bar').height() - $('navbar').height()) - $('.cover_text').height() )/2;
@@ -105,7 +105,7 @@ $(document).ready(function(){
         }
 
         //Animate the features section
-        if(top > coverHeight - coverHeight-200){
+        if(top > coverHeight - 200 && top < parseInt(coverHeight)+parseInt(featuresHeight)){
           fadeStuff(0);
           function fadeStuff(i){
             if(i<4){
@@ -113,16 +113,23 @@ $(document).ready(function(){
               // $($('.features_sec')[i]).fadeIn(function(){
               //   $(this).addClass('animated fadeInUp');
               // });
-              $($('.features_sec')[i]).addClass('animated fadeInUp');;
-                i++;
-                setTimeout(function(){
-                  fadeStuff(i);
-                },200)
+
+              //$($('.features_sec')[i]).addClass('animated zoomIn');;
+              $('.features_sec').fadeIn().addClass('animated zoomIn');
+              $('.features').css({
+                'min-height' : $('.features').height()+'px'
+              })
+                // i++;
+                // setTimeout(function(){
+                //   fadeStuff(i);
+                // },200)
             }
             else{
               return true;
             }
           }
+        }else{
+          $('.features_sec').fadeOut().removeClass('animated zoomIn');
         }
 
         //Animate phone on how to use section
