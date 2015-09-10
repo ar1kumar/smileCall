@@ -326,7 +326,7 @@ html,body,.wrapper{
 .cover{
   background: url('../img/cover_bg.jpg')center center fixed;
   width: 100%;
-  height: 600px;
+  /*height: 600px;*/
   -webkit-background-size: cover;
   background-size: cover;
   overflow: hidden;

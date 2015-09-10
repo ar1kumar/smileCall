@@ -5,9 +5,9 @@ $(document).ready(function(){
   var coverHeight;
 
   //Set cover height for full screen
-  // $('.cover').css({
-  //   'height' : $(window).height()+'px'
-  // })
+  $('.cover').css({
+    'height' : $(window).height()+'px'
+  })
 
   coverHeight = $('.cover').height();
     function landing_page_anim(){
@@ -18,7 +18,8 @@ $(document).ready(function(){
           'margin-top':(coverPhoneTop-20)+'px'
         })
 
-        coverCopyTop = ( (coverHeight - $('.top_bar').height() - $('navbar').height()) - $('.cover_text').height() )/2;
+        //coverCopyTop = ( (coverHeight - $('.top_bar').height() - $('navbar').height()) - $('.cover_text').height() )/2;
+        coverCopyTop = ((coverHeight - $('.cover_text').height())/2)+$('.top_bar').height() + $('navbar').height();
         $('.cover_copy').css({
           'margin-top':coverCopyTop+'px'
         })
