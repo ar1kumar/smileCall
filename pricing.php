@@ -7,7 +7,7 @@
       <div class="contact_form_cont col-xs-12 no-pad center-text roboto-medium">
         <div class="form_cont col-xs-12 no-pad">
           <h3 class="roboto-medium red-text no-mar">Check out our Plans</h3>
-          <div class="col-md-5 col-md-offset-1 no-pad center-text price-tab">
+          <div class="col-md-5 col-md-offset-1 no-pad center-text price-tab easing">
             <h2 class="col-md-12">$19.99/MONTH</h2>
             <ul class="price_list col-md-12">
               <li class="mt-25">Call Anytime & Anywhere in India</li>
@@ -17,7 +17,7 @@
             </ul>
             <button class="sub_btn_price">SUBSCRIBE</button>
           </div>
-          <div class="col-md-5 col-md-offset-1 no-pad center-text blue-text price-tab">
+          <div class="col-md-5 col-md-offset-1 no-pad center-text blue-text price-tab easing">
             <h2 class="col-md-12">$10 $20 $50 $100</h2>
             <ul class="price_list col-md-12">
               <li class="mt-25">Call Anywhere & Anytime</li>

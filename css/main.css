@@ -486,6 +486,8 @@ html,body,.wrapper{
 .price-tab:hover{
   background-color: #0f6db0;
   color: #fff;
+  box-shadow: 3px 5px 20px 0px #000;
+  -webkit-box-shadow: 3px 5px 20px 0px #000;
 }
 .sub_btn_price{
   background: #fff;
