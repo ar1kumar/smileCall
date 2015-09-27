@@ -73,6 +73,10 @@
           </li>
         </ul>
       </div>
+      <div class="contact_support col-xs-10 col-xs-offset-1">
+        <h2 class="roboto-medium center-text col-xs-12 no-pad">Haven't found the answer you're looking for?</h2>
+        <button class="col-md-4 col-md-offset-4 mb-40 contact_support_btn roboto-medium col-xs-10 col-xs-offset-1">Contact Support</button>
+      </div>
     </div>
   </div>
   <?php include('includes/footer.php'); ?>
