@@ -14,7 +14,7 @@
     </div>
   </div>
 </div>
-<nav class="navbar navbar-default z-top easing_fast">
+<nav class="navbar navbar_alt navbar-default z-top easing_fast">
   <div class="container-fluid">
     <!-- <div class="top_bar col-xs-12 no-pad">
       <div class="top_icons col-sm-4 right-text white-text">
@@ -37,12 +37,12 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right mt-15 center-text menu_items">
-        <li class="menu"><a href="howtouse.php">HOW TO USE</a></li>
-        <!-- <li class="menu"><a href="#pricing_div" id="">PRICING</a></li> -->
-        <li class="menu"><a href="#">RATES</a></li>
-        <li class="menu"><a href="reseller.php">RESELLER</a></li>
+        <li class="menu_alt"><a href="#">HOW TO USE</a></li>
+        <li class="menu_alt"><a href="pricing.php">PRICING</a></li>
+        <li class="menu_alt"><a href="#">RATES</a></li>
+        <li class="menu_alt"><a href="reseller.php">RESELLER</a></li>
         <li class="btn_adj">
-          <button class="btn nav_btn gotham-med">GET THE APP</button>
+          <button class="btn nav_btn_alt gotham-med">GET THE APP</button>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->

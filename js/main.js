@@ -34,8 +34,18 @@ $(document).ready(function(){
             'overflow': 'visible'
         });
         landing_page_anim();
+        setTimeout(function(){
+          howtoAnim();
+        },500)
     })
     //Preloader ends
+
+    //How to use phone animation
+    function howtoAnim(){
+      $('.phone_right').css({
+          'margin-left':'16.66666667%'
+      })
+    }
 
   var phone_anim_scroll = parseInt(coverHeight)+ parseInt(featuresHeight)/100*40;
 
@@ -106,68 +116,45 @@ $(document).ready(function(){
         }
 
         //Animate the features section
-        if(top > coverHeight - 200 && top < parseInt(coverHeight)+parseInt(featuresHeight)){
-          fadeStuff(0);
-          function fadeStuff(i){
-            if(i<4){
+        if(deviceWidth > 768){
+          if(top > coverHeight - 200 && top < parseInt(coverHeight)+parseInt(featuresHeight)){
+            fadeStuff(0);
+            function fadeStuff(i){
+              if(i<4){
 
-              // $($('.features_sec')[i]).fadeIn(function(){
-              //   $(this).addClass('animated fadeInUp');
-              // });
+                // $($('.features_sec')[i]).fadeIn(function(){
+                //   $(this).addClass('animated fadeInUp');
+                // });
 
-              //$($('.features_sec')[i]).addClass('animated zoomIn');;
-              $('.features_sec').fadeIn().addClass('animated zoomIn');
-              $('.features').css({
-                'min-height' : $('.features').height()+'px'
-              })
-                // i++;
-                // setTimeout(function(){
-                //   fadeStuff(i);
-                // },200)
+                //$($('.features_sec')[i]).addClass('animated zoomIn');;
+                $('.features_sec').fadeIn().addClass('animated zoomIn');
+                $('.features').css({
+                  'min-height' : $('.features').height()+'px'
+                })
+                  // i++;
+                  // setTimeout(function(){
+                  //   fadeStuff(i);
+                  // },200)
+              }
+              else{
+                return true;
+              }
             }
-            else{
-              return true;
-            }
+          }else{
+            $('.features_sec').fadeOut().removeClass('animated zoomIn');
           }
-        }else{
-          $('.features_sec').fadeOut().removeClass('animated zoomIn');
+
         }
 
-        //Animate phone on how to use section
-        if(top > phone_anim_scroll){
-          $('.phone_right').css({
-              'margin-left':'16.66666667%'
-          })
-          //$('.phone_right').addClass('col-md-offset-2')
-        }
   }, false);
 
-        insWidth = $('.instructions').width();
-        $('.ins2').css({
-          'left' : '-'+insWidth+2+'px'
+        //on clicking Pricing on menu scroll to pricing section
+        $('#pricing_menu').click(function(){
+          var $href = $(this).attr('href');
+          var $anchor = $('#'+$href).offset();
+          $('body').animate({ scrollTop: $anchor.top },1000);
+          return false;
         })
-        //Slider for instructions page
-        $('.ins_next').click(function(){
-          $('.how_to').css({
-            'min-height' : $('.how_to').height()+'px'
-          })
-          $('.ins1').css({
-            'left' : insWidth+'px'
-          })
-          $('.ins2').css({
-            'left' : '0px'
-          })
-        })
-
-        $('.ins_prev').click(function(){
-          $('.ins2').css({
-            'left' : '-'+insWidth+100+'px'
-          })
-          $('.ins1').css({
-            'left' : '0px'
-          })
-        })
-
         //ContactUs page set dynamic height for form container
         getURL = window.location.href;
         baseURL = "/smile_call/";
@@ -183,6 +170,12 @@ $(document).ready(function(){
 
         $('.contact_form_cont').css({
           'padding-top' : cont_form+'px'
+        })
+
+        //FAQ page animation and question expansion effect
+        $('.ques').click(function(){
+          $('.faq_ans').hide();
+          $(this).children().fadeIn()
         })
 
 

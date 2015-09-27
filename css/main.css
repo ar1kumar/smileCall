@@ -182,6 +182,9 @@ html,body,.wrapper{
 .red-text{
   color: #e94f29;
 }
+.grey-text{
+  color: #848383;
+}
 
 .mt-2{
   margin-top: 2px;
@@ -189,8 +192,16 @@ html,body,.wrapper{
 .mt-5{
   margin-top: 5px;
 }
+
+.mt-20{
+  margin-top: 20px;
+}
+
 .mt-25{
   margin-top: 25px;
+}
+.mt-30{
+  margin-top: 30px;
 }
 .mt-40{
   margin-top: 40px;
@@ -203,6 +214,10 @@ html,body,.wrapper{
 }
 .mb-40{
   margin-bottom: 40px;
+}
+
+.mb-50{
+  margin-bottom: 50px;
 }
 
 .no-dec{
@@ -275,6 +290,7 @@ html,body,.wrapper{
 }
 .btn_adj{
   margin-left: 10px;
+  outline: none;
 }
 .nav_btn:hover{
   color: #000;
@@ -285,7 +301,7 @@ html,body,.wrapper{
   margin-top: 5px;
 }
 
-.menu{
+.menu, .menu_alt{
   -webkit-transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -o-transition: all .25s ease-in-out;
@@ -322,6 +338,48 @@ html,body,.wrapper{
   width: 80%;
   margin-top: 10px;
 }
+
+/*Alternate header css props*/
+.navbar_alt{
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menu_alt a{
+  color: #33333A !important;
+  font-family: 'Gotham-Medium';
+  background-position: -100% 0;
+}
+ .menu_alt:hover{
+  /*background-color: #fff;*/
+  /*border-top: 2px solid #fff;*/
+  border-bottom: 2px solid #000;
+
+  font-size: 1.05em;
+  padding: 0 0 0 0;
+  /*text-decoration: underline;*/
+  /*color: #000 !important;*/
+  /*border-radius: 10px;*/
+  background-position: 0 0;
+  font-weight: bold;
+  border-width: medium;
+}
+
+.nav_btn_alt{
+  background: transparent;
+  border: 1px solid #e94f29;
+  color: #e94f29;
+  margin-top: 6px;
+  outline: none;
+}
+
+.nav_btn_alt:hover{
+  color: #e94f29;
+  outline: none;
+}
+
+
+/*Alternate header css ends here*/
 
 .cover{
   background: url('../img/cover_bg.jpg')center center fixed;
@@ -377,6 +435,15 @@ html,body,.wrapper{
   overflow: hidden;
 }
 
+.plans{
+  background: #0f6db0;
+}
+
+.plan_cont{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .features{
   min-height: 650px;
 }
@@ -419,8 +486,8 @@ html,body,.wrapper{
   position: relative;
 }
 .ins2{
-  position: absolute;
-  top: 0;
+  /*position: absolute;
+  top: 0;*/
 }
 
 .phone_right{
@@ -442,6 +509,12 @@ html,body,.wrapper{
 
 /*Menu bar and head section ends here*/
 
+/*How to use page starts here*/
+.ins1{
+  background: #e94f29;
+}
+/*how to use page ends here*/
+
 /*Contact us page starts here*/
 .cover_short{
   background: url('../img/cover_bg.jpg')center center fixed;
@@ -451,6 +524,16 @@ html,body,.wrapper{
   background-size: cover;
   overflow: hidden;
 }
+
+.cover_short_alt{
+  background: #fff;
+  width: 100%;
+  height: 150px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
 .form_input{
   outline: none;
   border-top: none;
@@ -479,16 +562,18 @@ html,body,.wrapper{
   list-style-type: none;
 }
 .price-tab{
-  border: 1px solid #0f6db0;
-  color: #0f6db0;
+  border: 1px solid #fff;
+  /*color: #0f6db0;*/
   margin-top: 15px;
+  background-color: #0f6db0;
+  color: #fff;
 }
-.price-tab:hover{
+/*.price-tab:hover{
   background-color: #0f6db0;
   color: #fff;
   box-shadow: 3px 5px 20px 0px #000;
   -webkit-box-shadow: 3px 5px 20px 0px #000;
-}
+}*/
 .sub_btn_price{
   background: #fff;
   color: #0f6db0;
@@ -506,6 +591,41 @@ html,body,.wrapper{
 }
 /*Pricing page ends here*/
 
+/*About us page starts here*/
+.about_text{
+  border-right: 2px solid #e94f29;
+}
+.about_copy{
+  font-size: 1.2em;
+}
+/*About us page ends here*/
+
+/*FAQ page starts here*/
+  .faq_ques{
+    font-size: 1.2em;
+  }
+  .faq_ques li{
+    padding-top: 5px;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  .faq_ques li:hover{
+    color: #000;
+  }
+  .faq_ans{
+    display: none;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    padding-top: 5px;
+    color: #ee4d33;
+  }
+/*FAQ page ends here*/
+
 /*Media queries starts here*/
 @media (max-width: 768px) {
   .top_logo{
@@ -519,6 +639,31 @@ html,body,.wrapper{
   }
   .btn_adj{
     margin-left: 0px;
+  }
+  .features_sec{
+    display: block;
+  }
+  .cover_copy{
+    font-size: 2.2em;
+    text-align: center;
+  }
+  .availble_text{
+    text-align: center;
+  }
+  .price-tab{
+    margin-bottom: 40px;
+  }
+  .app_codes{
+    margin-bottom: 60px;
+  }
+  .mob-mb-30{
+    margin-bottom: 30px;
+  }
+  .mob-mt-20{
+    margin-top: 20px;
+  }
+  .mob-mt-25{
+    margin-top: 25px;
   }
 }
 
