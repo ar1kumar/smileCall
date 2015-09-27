@@ -118,6 +118,15 @@
 	background-size: 100% 100%;
 }
 
+@media (max-width: 768px) {
+	.bx-wrapper .bx-next {
+		right: -15px;
+	}
+	.bx-wrapper .bx-prev {
+		left: -15px;
+	}
+}
+
 .bx-wrapper .bx-prev:hover {
 	/*background-position: 0 0;*/
 }

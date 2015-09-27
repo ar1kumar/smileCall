@@ -49,11 +49,11 @@
             <p class="faq_ans">Answer for question one</p>
           </li>
           <li class="ques">
-            Is Ringo cheaper than Skype?
+            Is SmileCall cheaper than Skype?
             <p class="faq_ans">Answer for question two</p>
           </li>
           <li class="ques">
-            Will I pay extra for Ringo when I am roaming?
+            Will I pay extra for SmileCall when I am roaming?
             <p class="faq_ans">Answer for question three</p>
           </li>
         </ul>

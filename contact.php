@@ -12,7 +12,7 @@
             <input type="number" name="contact" placeholder="Contact Number" class="col-md-4 col-md-offset-4 mt-25 form_input col-xs-10 col-xs-offset-1">
             <input type="email" name="email" placeholder="Email" class="col-md-4 col-md-offset-4 mt-25 form_input col-xs-10 col-xs-offset-1">
             <textarea name="comments" id="" cols="30" rows="5" class="col-md-4 col-md-offset-4 mt-25 form_comment col-xs-10 col-xs-offset-1" placeholder="Comments..."></textarea>
-            <input type="submit" value="SUBMIT" class="mt-25 col-md-2 col-md-offset-4 submit_btn roboto-medium col-xs-8 col-xs-offset-2">
+            <input type="submit" value="SUBMIT" class="mt-25 col-md-2 col-md-offset-4 submit_btn roboto-medium col-xs-8 col-xs-offset-2 mob-mb-30">
           </form>
         </div>
 

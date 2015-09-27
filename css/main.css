@@ -656,6 +656,10 @@ html,body,.wrapper{
   .app_codes{
     margin-bottom: 60px;
   }
+
+  .mob-mb-40{
+    margin-bottom: 40px;
+  }
   .mob-mb-30{
     margin-bottom: 30px;
   }
