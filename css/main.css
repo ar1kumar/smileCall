@@ -628,6 +628,9 @@ html,body,.wrapper{
 
 /*Media queries starts here*/
 @media (max-width: 768px) {
+  #status {
+    left: 45%;
+  }
   .top_logo{
     margin-top: 25px;
   }
